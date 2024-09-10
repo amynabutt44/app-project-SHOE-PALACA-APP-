@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Men's New Arrivals Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MEN’S NEW ARRIVALS"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:src="@drawable/main_pic1" />
+
+        <Button
+            android:id="@+id/shop_men"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SHOP NOW"
+            android:background="@drawable/button_background"
+            style="@style/CustomButton"
+            android:textColor="#000000" />
+
+
+        <!-- Women's New Arrivals Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WOMEN’S NEW ARRIVALS"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+        android:layout_marginTop="32dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="434dp"
+            android:src="@drawable/main_pic2" />
+        <Button
+            android:id="@+id/shop_women"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SHOP Now"
+            android:background="@drawable/button_background"
+            style="@style/CustomButton"
+            android:textColor="#000000" />
+
+
+        <!-- Kid’s New Arrivals Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KID’S NEW ARRIVALS"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="518dp"
+            android:src="@drawable/main_pic3" />
+
+        <Button
+            android:id="@+id/shop_kids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SHOP NOW"
+            android:background="@drawable/button_background"
+            style="@style/CustomButton"
+            android:textColor="#000000" />
+
+
+    </LinearLayout>
+</ScrollView>

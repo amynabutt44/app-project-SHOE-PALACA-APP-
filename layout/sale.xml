@@ -1,0 +1,36 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ImageView for displaying the sale image -->
+        <ImageView
+            android:id="@+id/saleImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sale" /> <!-- Replace with your image -->
+
+        <TextView
+            android:id="@+id/discountCodesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIMITED TIME DISCOUNT CODES"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+
+        <ListView
+            android:id="@+id/discountCodesList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp" />
+
+    </LinearLayout>
+</ScrollView>

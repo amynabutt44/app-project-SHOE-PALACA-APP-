@@ -1,0 +1,156 @@
+<!-- res/layout/activity_about_us.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Header Image -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/w3"
+            android:scaleType="centerCrop"
+            android:contentDescription="Header Image" />
+
+        <!-- Company Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Company Name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginTop="16dp" />
+
+        <!-- Mission Statement -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our mission is to deliver high-quality solutions and services to our clients, leveraging the latest technologies and innovative approaches to meet the evolving needs of the market."
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:layout_marginTop="8dp" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Team Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meet Our Team"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our team is made up of talented professionals with a passion for technology and innovation. With diverse backgrounds in software development, design, and project management, we work collaboratively to bring ideas to life."
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:layout_marginTop="8dp" />
+
+        <!-- Collaborations Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Collaborations"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We believe in the power of collaboration to drive innovation and deliver exceptional value. Over the years, we have partnered with several leading organizations and influencers who share our vision for the future. Some of our notable partners include:"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:layout_marginTop="8dp" />
+
+        <!-- Collaborator 1 -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/c4"
+                android:layout_marginEnd="16dp"
+
+                android:contentDescription="Collaborator 1 Image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Doe, CEO of XYZ Corporation - A leader in technology solutions, XYZ Corporation has been a key partner in our journey towards innovation."
+                android:textSize="16sp"
+                android:textColor="#555555" />
+        </LinearLayout>
+
+        <!-- Collaborator 2 -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/c1"
+                android:layout_marginEnd="16dp"
+
+                android:contentDescription="Collaborator 2 Image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jane Smith, Influencer  Tech Advocate - With a strong following in the tech community, Jane has collaborated with us to promote cutting-edge technological solutions."
+                android:textSize="16sp"
+                android:textColor="#555555" />
+        </LinearLayout>
+
+        <!-- Collaborator 3 -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/c3"
+                android:layout_marginEnd="16dp"
+
+                android:contentDescription="Collaborator 3 Image" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TechWorld Innovations - A global leader in AI and machine learning, TechWorld Innovations has been instrumental in helping us develop smarter, more efficient solutions."
+                android:textSize="16sp"
+                android:textColor="#555555" />
+        </LinearLayout>
+
+        <!-- Add more UI elements like images, buttons, etc. as needed -->
+
+    </LinearLayout>
+</ScrollView>
