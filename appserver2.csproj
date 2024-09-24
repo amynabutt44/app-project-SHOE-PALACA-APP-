@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-appserver2-04d2d813-49ce-4285-93e0-9fbcf7b3b3d1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\AuthService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Controllers\ChildAPIController.cs" />
+    <Content Include="Controllers\ChildController.cs" />
+    <Content Include="Controllers\HomeController.cs" />
+    <Content Include="Controllers\MenAPIController.cs" />
+    <Content Include="Controllers\MenController.cs" />
+    <Content Include="Controllers\WomenAPIController.cs" />
+    <Content Include="Controllers\WomenController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.6" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\Uploads\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Services\AuthService.cs" />
+  </ItemGroup>
+
+</Project>
